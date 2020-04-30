@@ -1,0 +1,8 @@
+<div class="p-4">
+    <div class="container mt-5" >
+        <h1>Hi {{user.firstName}} {{user.lastName}}!!</h1>
+        <p><a routerLink="/manage">Manage users</a></p>
+        <p><a routerLink="/manage/edit/{{user.login}}">Edit you profile</a></p>
+        <p><a routerLink="/account/logout">Logout</a></p>
+    </div>
+</div>

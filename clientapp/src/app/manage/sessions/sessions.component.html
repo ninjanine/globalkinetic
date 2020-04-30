@@ -1,0 +1,18 @@
+<h1>Users</h1>
+<a routerLink="/manage/add" class="btn btn-sm btn-success mb-2 ml-2">Add User</a>
+<a routerLink="/manage" class="btn btn-sm btn-success mb-2 ml-2">Manage</a>
+<a routerLink="/profile" class="btn btn-sm btn-success mb-2 ml-2">Profile</a>
+<a routerLink="/account/logout" class="btn btn-sm btn-success mb-2 ml-2">Logout</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th style="width: 30%">Username</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let session of sessions">
+            <td>{{session.username}}</td>
+        </tr>
+    </tbody>
+</table>
