@@ -18,6 +18,8 @@
 - To start up the client type
 	- `docker run -it -p 80:80 --rm ninjanine/gloablkclient`
 - Navigate in a browser to `http://localhost:80/` to view the app
+- user:admin
+- password: 123456
 
 ## Endpoints
 
@@ -31,4 +33,5 @@
 - /api/loggedusers
     - GET - fetches active sessions
 - /api/login - logs a user in
+
 
